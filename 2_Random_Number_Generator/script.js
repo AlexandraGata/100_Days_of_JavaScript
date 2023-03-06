@@ -1,10 +1,7 @@
 const number = document.querySelector(".number");
 const button = document.querySelector(".randomize");
 const minValue = 0;
-const maxValue = 10;
-
-
-
+const maxValue = 1000000;
 
 function getRandomInteger(min, max){
     number.innerHTML = Math.floor(Math.random()*(max-min)+1);
